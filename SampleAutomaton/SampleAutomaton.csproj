@@ -7,8 +7,8 @@
     <ProjectGuid>{ADD8D4B1-201B-4FFE-A26E-A9AABAA1AB06}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Automate1</RootNamespace>
-    <AssemblyName>Automate1</AssemblyName>
+    <RootNamespace>SampleAutomaton</RootNamespace>
+    <AssemblyName>SampleAutomaton</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
@@ -48,7 +48,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Automate.cs" />
+    <Compile Include="Automaton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Automate1
+namespace SampleAutomaton
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Automate automate = new Automate();
-            automate.Run();
+            Automaton automaton = new Automaton();
+            automaton.Run();
         }
     }
 }

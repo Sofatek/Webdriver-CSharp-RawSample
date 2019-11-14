@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Les informations générales relatives à un assembly dépendent de 
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("Automate1")]
+[assembly: AssemblyTitle("SampleAutomaton")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("UCF")]
-[assembly: AssemblyProduct("Automate1")]
+[assembly: AssemblyProduct("SampleAutomaton")]
 [assembly: AssemblyCopyright("Copyright © UCF 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

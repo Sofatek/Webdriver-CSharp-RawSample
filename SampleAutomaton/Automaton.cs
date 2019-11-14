@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace Automate1
+namespace SampleAutomaton
 {
-    class Automate
+    class Automaton
     {
         public void Run()
         {
@@ -35,7 +35,7 @@ namespace Automate1
             driver.Navigate().Back();
 
             driver.FindElement(By.Name("username")).SendKeys("test");
-            driver.FindElement(By.Name("password")).SendKeys("password");
+            driver.FindElement(By.Name("password")).SendKeys("pa$$word");
             driver.FindElement(By.XPath("//input[@type='submit']")).Click();
         }
     }
